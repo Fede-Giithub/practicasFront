@@ -1,0 +1,75 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.todo{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    
+}
+.general{
+    background-color: white;
+    width: 300px;
+    height: 400px;
+    display:inline-flex;
+    align-items:stretch;
+    flex-direction: column;
+    justify-content:end;
+    border-radius: 15px;
+}
+
+.datos{
+    padding: 10px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.datos-item{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    padding:10px
+}
+
+
+.media{
+    
+    display: inline-flex;
+    justify-content:space-between;
+
+}
+.linea{
+    height: 1px;
+    background-color: gray;
+}
+
+
+.media-item {
+    width: 60px;
+    margin:20px;
+    padding:5px;
+    text-align: center;
+}
+
+body{
+    background-color: rgb(10, 172, 172);
+}
+
+.media h4{
+    font-weight: 400px;
+}
+.media h5{
+    color:gray;
+}
+
+.datos-item h2{
+    color:grey;
+}
