@@ -32,6 +32,9 @@
     text-align: center;
     background-color: white;
 }
+.datos h1,h2{
+    margin-top: 10px;
+}
 
 .datos-item{
     display:flex;
@@ -85,4 +88,5 @@ body{
     margin: -35px auto;
     border: 2px solid white ;
     position:relative;
+
 }
