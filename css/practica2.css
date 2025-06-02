@@ -1,0 +1,145 @@
+*{
+    font-family:'Times New Roman', Times, serif;
+    margin:0px;
+    padding:0px;
+    background-color: rgb(227, 227, 219);
+}
+body{
+    width: 200vh;
+    background-color: rgb(227, 227, 219);
+}
+body div{
+    width: 50vh;
+    background-color: white;
+    
+}
+
+
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: auto auto auto;
+    gap: 100px;
+    max-width: 1000px;
+    margin: 0 auto; 
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(227, 227, 219);
+    
+  
+}
+.grid-container div{
+    height: 200px;
+    padding-left: 20px;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+.clase-team-Builder{
+    
+    grid-column: 2;
+    grid-row: 1;
+    transform: translateY(190px);
+    box-shadow: 9px 3px 19px 0px rgba(0,0,0,0.48);
+    border-top: 3px solid red;
+    
+}
+.clase-supervisor{
+    grid-column: 1;
+    grid-row: 2;
+    box-shadow: 9px 3px 19px 0px rgba(0,0,0,0.48);
+    border-top: 3px solid red;
+    transform: translateX(60px);
+}
+
+.clase-karma{
+    grid-column: 2; 
+    grid-row: 3;
+    transform: translateY(-190px);
+    box-shadow: 9px 3px 19px 0px rgba(0,0,0,0.48);
+    border-top: 3px solid red;
+}
+.clase-calculator{
+    grid-column: 3;
+    grid-row: 2;
+    box-shadow: 9px 3px 19px 0px rgba(0,0,0,0.48);
+    border-top: 3px solid red;
+    transform: translateX(-60px);
+}
+
+.clase-team-Builder div{
+    
+    width:auto;
+    height:auto;
+    border-radius: 10px;
+    
+    
+
+}
+.clase-calculator div{
+   
+    width:auto;
+    height:auto;
+    
+    
+
+}
+.clase-karma div{
+   
+    width:auto;
+    height:auto;
+    
+
+}
+.clase-supervisor div{
+    
+    width:auto;
+    height:auto;
+    
+
+}
+
+.imagenes{
+    margin-top: 20px;
+    padding-top: 20px;
+    text-align: right;
+    background-color: white;
+}
+img{
+    width: 80px;
+    padding-right: 20px;
+    background-color: white;
+}
+
+.titulo{
+    width: 100vh;
+    text-align: center;
+}
+
+.titulo h3{
+    font-size: 40px;
+}
+.titulo h4{
+    font-size: 20px;
+    color:grey
+}
+
+
+h5 {
+    margin-bottom: 10px; 
+    background-color: white;
+}
+
+p {
+    margin-top: 0;
+    color: grey;
+    background-color: white;
+}
